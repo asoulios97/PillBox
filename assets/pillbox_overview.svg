@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" width="1200" height="490" role="img" aria-label="PillBox overview: wrist IMU signals, Inception MS-TCN, drinking gesture segments">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<rect x="1" y="1" width="1198" height="488" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+<text x="40" y="58" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="32" font-weight="700" fill="#0f172a">Pill<tspan fill="#4f46e5">Box</tspan></text>
+<text x="40" y="86" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="16" fill="#64748b">Drinking gesture detection from wrist-worn IMUs with an Inception Multi-Stage TCN</text>
+<rect x="30" y="116" width="330" height="346" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<circle cx="54" cy="142" r="12" fill="#4f46e5"/>
+<text x="54" y="147" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="74" y="147" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0f172a">Wrist IMU input</text>
+<rect x="239.2" y="157" width="48.0" height="96" rx="6" fill="#f59e0b" opacity="0.14"/>
+<polyline points="100.0,189.9 102.0,187.5 104.0,189.5 106.0,193.2 108.0,192.7 110.0,192.6 112.0,191.0 114.0,190.0 116.0,193.8 118.0,195.9 120.0,194.5 122.0,198.2 124.0,197.2 126.0,199.6 128.0,195.5 130.0,192.0 132.0,192.6 134.0,189.0 136.0,189.8 138.0,194.5 140.0,194.6 142.0,191.5 144.0,188.3 146.0,189.4 148.0,189.8 150.0,189.9 152.0,193.9 154.0,195.7 156.0,196.8 158.0,197.2 160.0,197.8 162.0,196.5 164.0,195.3 166.0,193.9 168.0,195.1 170.0,197.2 172.0,193.9 174.0,194.5 176.0,192.2 178.0,191.8 180.0,186.2 182.0,186.0 184.0,190.1 186.0,191.1 188.0,191.4 190.0,192.9 192.0,192.2 194.0,194.0 196.0,191.6 198.0,192.3 200.0,194.9 202.0,195.4 204.0,195.6 206.0,196.4 208.0,197.1 210.0,194.5 212.0,194.4 214.0,191.4 216.0,188.1 218.0,190.2 220.0,192.4 222.0,191.7 224.0,191.1 226.0,190.6 228.0,190.9 230.0,190.1 232.0,190.5 234.0,191.1 236.0,194.8 238.0,197.5 240.0,198.1 242.0,199.8 244.0,198.7 246.0,195.1 248.0,194.4 250.0,198.0 252.0,200.7 254.0,201.7 256.0,196.8 258.0,187.6 260.0,179.4 262.0,172.4 264.0,166.9 266.0,171.2 268.0,176.3 270.0,183.0 272.0,192.6 274.0,198.0 276.0,200.3 278.0,198.1 280.0,194.6 282.0,197.9 284.0,194.5 286.0,195.0 288.0,195.1 290.0,195.1 292.0,192.9 294.0,191.6 296.0,189.1 298.0,188.6 300.0,190.5 302.0,188.3 304.0,191.3 306.0,194.1 308.0,192.8 310.0,192.2 312.0,192.2 314.0,192.5 316.0,192.9 318.0,194.7 320.0,196.8 322.0,198.5 324.0,200.0 326.0,197.3 328.0,195.2 330.0,191.4 332.0,189.2 334.0,189.7 336.0,190.5 338.0,191.0 340.0,193.2" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="100.0,220.0 102.0,221.6 104.0,222.0 106.0,223.9 108.0,224.3 110.0,222.1 112.0,218.5 114.0,216.9 116.0,215.7 118.0,217.3 120.0,216.8 122.0,218.5 124.0,219.4 126.0,219.5 128.0,218.4 130.0,215.1 132.0,215.3 134.0,216.3 136.0,218.0 138.0,222.1 140.0,223.2 142.0,222.5 144.0,221.4 146.0,219.6 148.0,218.2 150.0,220.2 152.0,218.5 154.0,218.8 156.0,219.7 158.0,220.4 160.0,218.2 162.0,218.0 164.0,213.7 166.0,213.6 168.0,215.6 170.0,218.2 172.0,218.0 174.0,220.5 176.0,219.8 178.0,219.5 180.0,219.9 182.0,219.9 184.0,219.6 186.0,221.1 188.0,223.0 190.0,222.7 192.0,220.1 194.0,221.1 196.0,219.0 198.0,215.4 200.0,216.1 202.0,215.8 204.0,217.2 206.0,218.8 208.0,217.0 210.0,219.7 212.0,218.3 214.0,218.8 216.0,217.7 218.0,220.3 220.0,221.7 222.0,221.8 224.0,223.8 226.0,222.3 228.0,219.5 230.0,220.5 232.0,219.3 234.0,218.4 236.0,216.8 238.0,217.9 240.0,219.4 242.0,218.7 244.0,218.7 246.0,217.6 248.0,220.1 250.0,220.1 252.0,222.1 254.0,223.5 256.0,223.4 258.0,218.6 260.0,216.0 262.0,209.1 264.0,203.3 266.0,204.2 268.0,209.3 270.0,212.8 272.0,218.8 274.0,220.8 276.0,222.6 278.0,221.1 280.0,217.9 282.0,217.4 284.0,216.4 286.0,215.4 288.0,219.1 290.0,221.3 292.0,221.5 294.0,220.7 296.0,218.1 298.0,219.5 300.0,220.5 302.0,222.4 304.0,220.6 306.0,223.1 308.0,223.3 310.0,222.2 312.0,220.2 314.0,218.1 316.0,215.6 318.0,217.7 320.0,218.9 322.0,218.1 324.0,219.2 326.0,216.0 328.0,218.3 330.0,216.5 332.0,216.0 334.0,218.7 336.0,218.7 338.0,222.2 340.0,223.9" fill="none" stroke="#0d9488" stroke-width="1.6" stroke-linejoin="round" opacity="0.9"/>
+<text x="50" y="201" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#0f172a">Left</text>
+<text x="50" y="218" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">wrist</text>
+<rect x="136.0" y="267" width="48.0" height="96" rx="6" fill="#f59e0b" opacity="0.14"/>
+<rect x="239.2" y="267" width="48.0" height="96" rx="6" fill="#f59e0b" opacity="0.14"/>
+<polyline points="100.0,299.8 102.0,300.9 104.0,305.0 106.0,304.3 108.0,300.3 110.0,301.0 112.0,302.7 114.0,306.4 116.0,307.0 118.0,307.9 120.0,307.3 122.0,307.3 124.0,303.6 126.0,301.8 128.0,299.5 130.0,298.6 132.0,299.6 134.0,301.9 136.0,302.1 138.0,301.9 140.0,302.0 142.0,302.4 144.0,302.6 146.0,307.3 148.0,311.3 150.0,311.7 152.0,312.3 154.0,306.9 156.0,300.2 158.0,292.7 160.0,285.8 162.0,286.0 164.0,288.1 166.0,292.2 168.0,299.6 170.0,305.2 172.0,302.4 174.0,301.3 176.0,299.8 178.0,298.3 180.0,299.7 182.0,301.2 184.0,304.7 186.0,302.5 188.0,302.3 190.0,305.2 192.0,302.1 194.0,302.8 196.0,305.4 198.0,306.6 200.0,307.7 202.0,305.3 204.0,305.3 206.0,301.2 208.0,301.0 210.0,297.4 212.0,297.4 214.0,300.5 216.0,301.3 218.0,300.3 220.0,300.9 222.0,301.1 224.0,301.6 226.0,301.4 228.0,301.2 230.0,306.0 232.0,305.0 234.0,309.2 236.0,306.1 238.0,307.2 240.0,302.2 242.0,301.9 244.0,302.8 246.0,304.2 248.0,306.2 250.0,308.7 252.0,310.6 254.0,308.9 256.0,302.4 258.0,293.5 260.0,287.9 262.0,285.8 264.0,281.8 266.0,285.4 268.0,290.4 270.0,299.8 272.0,302.2 274.0,308.2 276.0,306.9 278.0,309.1 280.0,309.5 282.0,306.3 284.0,308.7 286.0,304.8 288.0,300.6 290.0,300.8 292.0,299.4 294.0,296.4 296.0,299.7 298.0,300.2 300.0,304.8 302.0,303.9 304.0,304.4 306.0,301.5 308.0,303.9 310.0,300.9 312.0,306.8 314.0,305.7 316.0,310.3 318.0,309.2 320.0,305.2 322.0,305.7 324.0,303.3 326.0,299.7 328.0,300.9 330.0,303.2 332.0,299.8 334.0,303.7 336.0,303.5 338.0,300.8 340.0,298.6" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="100.0,331.9 102.0,331.9 104.0,331.0 106.0,328.8 108.0,327.4 110.0,325.2 112.0,327.6 114.0,326.5 116.0,325.7 118.0,327.6 120.0,326.9 122.0,329.2 124.0,327.2 126.0,327.7 128.0,327.1 130.0,328.5 132.0,332.4 134.0,333.3 136.0,333.7 138.0,331.1 140.0,330.6 142.0,332.0 144.0,330.0 146.0,333.6 148.0,333.7 150.0,336.1 152.0,334.8 154.0,327.1 156.0,322.6 158.0,315.9 160.0,309.0 162.0,309.3 164.0,315.4 166.0,319.4 168.0,327.3 170.0,331.3 172.0,334.8 174.0,331.9 176.0,331.6 178.0,329.8 180.0,329.9 182.0,332.3 184.0,332.3 186.0,332.4 188.0,331.0 190.0,329.3 192.0,326.7 194.0,324.8 196.0,327.2 198.0,326.0 200.0,328.6 202.0,329.6 204.0,328.0 206.0,328.7 208.0,328.8 210.0,328.3 212.0,328.5 214.0,332.4 216.0,330.7 218.0,334.8 220.0,331.9 222.0,330.1 224.0,331.1 226.0,326.8 228.0,327.5 230.0,327.0 232.0,329.6 234.0,330.0 236.0,329.3 238.0,325.7 240.0,327.3 242.0,324.9 244.0,325.2 246.0,327.6 248.0,333.2 250.0,336.6 252.0,338.0 254.0,336.5 256.0,335.3 258.0,327.3 260.0,320.8 262.0,315.7 264.0,316.6 266.0,314.5 268.0,320.8 270.0,323.7 272.0,325.5 274.0,325.8 276.0,328.3 278.0,326.5 280.0,328.4 282.0,330.1 284.0,330.9 286.0,331.7 288.0,331.7 290.0,330.8 292.0,328.6 294.0,327.8 296.0,331.8 298.0,333.4 300.0,330.9 302.0,332.2 304.0,331.3 306.0,329.9 308.0,326.7 310.0,324.8 312.0,326.1 314.0,327.1 316.0,329.4 318.0,326.9 320.0,329.9 322.0,327.6 324.0,325.8 326.0,328.4 328.0,327.4 330.0,328.4 332.0,331.4 334.0,332.0 336.0,334.3 338.0,332.1 340.0,331.5" fill="none" stroke="#0d9488" stroke-width="1.6" stroke-linejoin="round" opacity="0.9"/>
+<text x="50" y="311" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#0f172a">Right</text>
+<text x="50" y="328" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">wrist</text>
+<line x1="50" y1="424" x2="64" y2="424" stroke="#4f46e5" stroke-width="3"/>
+<text x="70" y="428" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">accelerometer</text>
+<line x1="168" y1="424" x2="182" y2="424" stroke="#0d9488" stroke-width="3"/>
+<text x="188" y="428" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">gyroscope</text>
+<text x="50" y="448" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">6 axes · 16 Hz · left hand mirrored</text>
+<rect x="400" y="116" width="420" height="346" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<circle cx="424" cy="142" r="12" fill="#4f46e5"/>
+<text x="424" y="147" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="444" y="147" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0f172a">Inception Multi-Stage TCN</text>
+<rect x="420" y="168" width="240" height="196" rx="10" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="432" y="188" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#4f46e5">Stage 1 · prediction</text>
+<line x1="540.0" y1="212.0" x2="474.7" y2="255.3" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="212.0" x2="540.0" y2="255.3" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="212.0" x2="605.3" y2="255.3" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="474.7" y1="255.3" x2="442.0" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="474.7" y1="255.3" x2="474.7" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="474.7" y1="255.3" x2="507.3" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="255.3" x2="507.3" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="255.3" x2="540.0" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="255.3" x2="572.7" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="605.3" y1="255.3" x2="572.7" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="605.3" y1="255.3" x2="605.3" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="605.3" y1="255.3" x2="638.0" y2="298.7" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="442.0" y1="298.7" x2="442.0" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="442.0" y1="298.7" x2="458.3" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="474.7" y1="298.7" x2="458.3" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="474.7" y1="298.7" x2="474.7" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="474.7" y1="298.7" x2="491.0" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="507.3" y1="298.7" x2="491.0" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="507.3" y1="298.7" x2="507.3" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="507.3" y1="298.7" x2="523.7" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="298.7" x2="523.7" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="298.7" x2="540.0" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="540.0" y1="298.7" x2="556.3" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="572.7" y1="298.7" x2="556.3" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="572.7" y1="298.7" x2="572.7" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="572.7" y1="298.7" x2="589.0" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="605.3" y1="298.7" x2="589.0" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="605.3" y1="298.7" x2="605.3" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="605.3" y1="298.7" x2="621.7" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="638.0" y1="298.7" x2="621.7" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<line x1="638.0" y1="298.7" x2="638.0" y2="342.0" stroke="#4f46e5" stroke-width="1.3" opacity="0.55"/>
+<circle cx="442.0" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="458.3" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="474.7" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="491.0" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="507.3" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="523.7" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="540.0" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="556.3" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="572.7" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="589.0" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="605.3" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="621.7" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="638.0" cy="342.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="442.0" cy="298.7" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="458.3" cy="298.7" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="474.7" cy="298.7" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="491.0" cy="298.7" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="507.3" cy="298.7" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="523.7" cy="298.7" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="540.0" cy="298.7" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="556.3" cy="298.7" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="572.7" cy="298.7" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="589.0" cy="298.7" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="605.3" cy="298.7" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="621.7" cy="298.7" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="638.0" cy="298.7" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="442.0" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="458.3" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="474.7" cy="255.3" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="491.0" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="507.3" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="523.7" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="540.0" cy="255.3" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="556.3" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="572.7" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="589.0" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="605.3" cy="255.3" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="621.7" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="638.0" cy="255.3" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="442.0" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="458.3" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="474.7" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="491.0" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="507.3" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="523.7" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="540.0" cy="212.0" r="4.2" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<circle cx="556.3" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="572.7" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="589.0" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="605.3" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="621.7" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="638.0" cy="212.0" r="3" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="648" y="188" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="end">dilation 1 … 256</text>
+<rect x="420" y="376" width="240" height="40" rx="8" fill="#fff" stroke="#c7d2fe" stroke-dasharray="4 3"/>
+<text x="430" y="392" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Each layer = Inception block</text>
+<rect x="430" y="398" width="40" height="13" rx="3" fill="#4f46e5" opacity="0.9"/>
+<text x="450" y="408" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" fill="#fff" text-anchor="middle">k=3</text>
+<rect x="475" y="398" width="40" height="13" rx="3" fill="#4f46e5" opacity="0.9"/>
+<text x="495" y="408" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" fill="#fff" text-anchor="middle">k=5</text>
+<rect x="520" y="398" width="40" height="13" rx="3" fill="#4f46e5" opacity="0.9"/>
+<text x="540" y="408" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" fill="#fff" text-anchor="middle">k=9</text>
+<rect x="565" y="398" width="40" height="13" rx="3" fill="#4f46e5" opacity="0.45"/>
+<text x="585" y="408" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" fill="#fff" text-anchor="middle">pool</text>
+<text x="612" y="408" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#64748b">→ concat</text>
+<line x1="664" y1="266.0" x2="708" y2="266.0" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="686.0" y="282.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">softmax</text>
+<rect x="712" y="168" width="88" height="196" rx="10" fill="#f0fdfa" stroke="#99f6e4"/>
+<text x="756.0" y="188" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#0d9488" text-anchor="middle">Stage 2</text>
+<text x="756.0" y="204" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="middle">refinement</text>
+<rect x="726" y="226" width="60" height="16" rx="4" fill="#0d9488" opacity="0.25"/>
+<rect x="726" y="252" width="60" height="16" rx="4" fill="#0d9488" opacity="0.4"/>
+<rect x="726" y="278" width="60" height="16" rx="4" fill="#0d9488" opacity="0.55"/>
+<rect x="726" y="304" width="60" height="16" rx="4" fill="#0d9488" opacity="0.7"/>
+<rect x="726" y="330" width="60" height="16" rx="4" fill="#0d9488" opacity="0.85"/>
+<text x="420" y="448" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">CE + 0.15 × T-MSE per stage · 0.76 M params</text>
+<rect x="860" y="116" width="310" height="346" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<circle cx="884" cy="142" r="12" fill="#4f46e5"/>
+<text x="884" y="147" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="904" y="147" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0f172a">Drinking segments</text>
+<text x="880" y="199" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">Left</text>
+<polyline points="930,208 930.0,206.8 932.2,206.4 934.4,206.0 936.6,205.9 938.8,206.0 941.0,206.3 943.2,206.7 945.4,207.1 947.6,207.5 949.8,207.7 952.0,207.7 954.2,207.4 956.4,207.1 958.6,206.6 960.8,206.2 963.0,206.0 965.2,205.9 967.4,206.1 969.6,206.4 971.8,206.9 974.0,207.3 976.2,207.6 978.4,207.7 980.6,207.6 982.8,207.3 985.0,206.9 987.2,206.4 989.4,206.1 991.6,205.9 993.8,206.0 996.0,206.2 998.2,206.6 1000.4,207.1 1002.6,207.4 1004.8,207.7 1007.0,207.7 1009.2,207.5 1011.4,207.1 1013.6,206.7 1015.8,206.3 1018.0,206.0 1020.2,205.9 1022.4,206.0 1024.6,206.4 1026.8,206.8 1029.0,207.2 1031.2,207.6 1033.4,207.7 1035.6,207.6 1037.8,207.3 1040.0,206.9 1042.2,206.5 1044.4,206.1 1046.6,205.9 1048.8,205.9 1051.0,206.2 1053.2,206.6 1055.4,207.0 1057.6,207.4 1059.8,207.2 1062.0,206.1 1064.2,203.7 1066.4,199.3 1068.6,193.0 1070.8,186.7 1073.0,182.3 1075.2,179.9 1077.4,178.8 1079.6,178.3 1081.8,178.8 1084.0,179.9 1086.2,182.3 1088.4,186.7 1090.6,193.0 1092.8,199.3 1095.0,203.7 1097.2,206.1 1099.4,206.2 1101.6,205.9 1103.8,205.9 1106.0,206.1 1108.2,206.5 1110.4,206.9 1112.6,207.4 1114.8,207.6 1117.0,207.7 1119.2,207.5 1121.4,207.2 1123.6,206.8 1125.8,206.4 1128.0,206.0 1130.2,205.9 1132.4,206.0 1134.6,206.3 1136.8,206.7 1139.0,207.1 1141.2,207.5 1143.4,207.7 1145.6,207.7 1147.8,207.4 1150.0,207.0 1150,208" fill="#4f46e5" fill-opacity="0.18" stroke="#4f46e5" stroke-width="1.5"/>
+<line x1="930" y1="208" x2="1150" y2="208" stroke="#cbd5e1"/>
+<text x="880" y="253" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">Right</text>
+<polyline points="930,262 930.0,260.8 932.2,260.4 934.4,260.0 936.6,259.9 938.8,260.0 941.0,260.3 943.2,260.7 945.4,261.1 947.6,261.5 949.8,261.7 952.0,261.7 954.2,261.4 956.4,261.1 958.6,260.6 960.8,260.2 963.0,260.0 965.2,259.9 967.4,260.1 969.6,257.7 971.8,253.3 974.0,247.0 976.2,240.7 978.4,236.3 980.6,233.9 982.8,232.8 985.0,232.3 987.2,232.8 989.4,233.9 991.6,236.3 993.8,240.7 996.0,247.0 998.2,253.3 1000.4,257.7 1002.6,260.1 1004.8,261.2 1007.0,261.7 1009.2,261.5 1011.4,261.1 1013.6,260.7 1015.8,260.3 1018.0,260.0 1020.2,259.9 1022.4,260.0 1024.6,260.4 1026.8,260.8 1029.0,261.2 1031.2,261.6 1033.4,261.7 1035.6,261.6 1037.8,261.3 1040.0,260.9 1042.2,260.5 1044.4,260.1 1046.6,259.9 1048.8,259.9 1051.0,260.2 1053.2,260.6 1055.4,261.0 1057.6,261.2 1059.8,260.1 1062.0,257.7 1064.2,253.3 1066.4,247.0 1068.6,240.7 1070.8,236.3 1073.0,233.9 1075.2,232.8 1077.4,232.3 1079.6,232.1 1081.8,232.3 1084.0,232.8 1086.2,233.9 1088.4,236.3 1090.6,240.7 1092.8,247.0 1095.0,253.3 1097.2,257.7 1099.4,260.1 1101.6,259.9 1103.8,259.9 1106.0,260.1 1108.2,260.5 1110.4,260.9 1112.6,261.4 1114.8,261.6 1117.0,261.7 1119.2,261.5 1121.4,261.2 1123.6,260.8 1125.8,260.4 1128.0,260.0 1130.2,259.9 1132.4,260.0 1134.6,260.3 1136.8,260.7 1139.0,261.1 1141.2,261.5 1143.4,261.7 1145.6,261.7 1147.8,261.4 1150.0,261.0 1150,262" fill="#0d9488" fill-opacity="0.18" stroke="#0d9488" stroke-width="1.5"/>
+<line x1="930" y1="262" x2="1150" y2="262" stroke="#cbd5e1"/>
+<text x="1040.0" y="294" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#0f172a" text-anchor="middle">OR-merge ↓</text>
+<text x="880" y="327" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">Output</text>
+<rect x="930" y="312" width="220" height="22" rx="5" fill="#f1f5f9" stroke="#cbd5e1"/>
+<rect x="974.0" y="312" width="22.0" height="22" rx="5" fill="#f59e0b"/>
+<rect x="1066.4" y="312" width="26.4" height="22" rx="5" fill="#f59e0b"/>
+<rect x="930" y="346" width="12" height="12" rx="3" fill="#f59e0b"/>
+<text x="948" y="356" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">drinking</text>
+<rect x="1020" y="346" width="12" height="12" rx="3" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="1038" y="356" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">null</text>
+<text x="880" y="428" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">Segmental F1 @ IoU 0.10 / 0.25 / 0.50</text>
+<text x="880" y="448" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">leave-one-subject-out · 13 folds</text>
+<line x1="366" y1="289.0" x2="394" y2="289.0" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="826" y1="289.0" x2="854" y2="289.0" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+<text x="1160" y="476" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="end">DX-I dataset · 13 participants · 8.9 h</text>
+</svg>

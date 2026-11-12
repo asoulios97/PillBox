@@ -1,0 +1,2 @@
+fold,test_subjects,seg_rule,n_gt_segments,selected_epoch,final_train_loss,final_heldout_loss,frame_f1,seconds,tp@0.1,fp@0.1,fn@0.1,segF1@0.1,tp@0.25,fp@0.25,fn@0.25,segF1@0.25,tp@0.5,fp@0.5,fn@0.5,segF1@0.5
+1,1,paper,19,50,0.03464,0.03251,0.74,152.1,12,4,7,0.6857,11,4,8,0.6471,9,4,10,0.5625

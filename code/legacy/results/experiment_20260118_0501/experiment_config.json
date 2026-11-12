@@ -1,0 +1,25 @@
+{
+  "experiment_name": "experiment_20260118_0501",
+  "timestamp": "20260118_0501",
+  "model_config": {
+    "num_stages": 4,
+    "num_layers": 10,
+    "num_features": 64,
+    "num_classes": 2,
+    "input_channels": 6,
+    "use_bottleneck": true,
+    "bottleneck_interval": 3
+  },
+  "data_config": {
+    "window_size": 128,
+    "stride": 64,
+    "batch_size": 32
+  },
+  "training_config": {
+    "n_folds": 5,
+    "num_epochs": 50,
+    "learning_rate": 0.001,
+    "smooth_weight": 0.75,
+    "truncate_threshold": 4.0
+  }
+}

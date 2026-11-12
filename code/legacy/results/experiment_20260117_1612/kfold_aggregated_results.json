@@ -1,0 +1,788 @@
+{
+  "n_folds": 5,
+  "fold_splits": [
+    {
+      "fold": 1,
+      "train_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "val_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "train_user_ids": [
+        "1-3",
+        "10-1",
+        "11-1",
+        "12-1",
+        "13-1",
+        "4-1",
+        "5-1",
+        "6-1",
+        "6-2",
+        "7-1",
+        "8-1",
+        "9-1"
+      ],
+      "val_user_ids": [
+        "2-1",
+        "2-2",
+        "3-1"
+      ],
+      "train_sessions": [
+        "1-3/Left",
+        "1-3/Right",
+        "10-1/Left",
+        "10-1/Right",
+        "11-1/Left",
+        "11-1/Right",
+        "12-1/Left",
+        "12-1/Right",
+        "13-1/Left",
+        "13-1/Right",
+        "4-1/Left",
+        "4-1/Right",
+        "5-1/Left",
+        "5-1/Right",
+        "6-1/Left",
+        "6-1/Right",
+        "6-2/Left",
+        "6-2/Right",
+        "7-1/Left",
+        "7-1/Right",
+        "8-1/Left",
+        "8-1/Right",
+        "9-1/Left",
+        "9-1/Right"
+      ],
+      "val_sessions": [
+        "2-1/Left",
+        "2-1/Right",
+        "2-2/Left",
+        "2-2/Right",
+        "3-1/Left",
+        "3-1/Right"
+      ],
+      "num_train_users": 12,
+      "num_val_users": 3,
+      "no_overlap_verified": true
+    },
+    {
+      "fold": 2,
+      "train_indices": [
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "val_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_user_ids": [
+        "10-1",
+        "13-1",
+        "2-1",
+        "2-2",
+        "3-1",
+        "4-1",
+        "5-1",
+        "6-1",
+        "6-2",
+        "7-1",
+        "8-1",
+        "9-1"
+      ],
+      "val_user_ids": [
+        "1-3",
+        "11-1",
+        "12-1"
+      ],
+      "train_sessions": [
+        "10-1/Left",
+        "10-1/Right",
+        "13-1/Left",
+        "13-1/Right",
+        "2-1/Left",
+        "2-1/Right",
+        "2-2/Left",
+        "2-2/Right",
+        "3-1/Left",
+        "3-1/Right",
+        "4-1/Left",
+        "4-1/Right",
+        "5-1/Left",
+        "5-1/Right",
+        "6-1/Left",
+        "6-1/Right",
+        "6-2/Left",
+        "6-2/Right",
+        "7-1/Left",
+        "7-1/Right",
+        "8-1/Left",
+        "8-1/Right",
+        "9-1/Left",
+        "9-1/Right"
+      ],
+      "val_sessions": [
+        "1-3/Left",
+        "1-3/Right",
+        "11-1/Left",
+        "11-1/Right",
+        "12-1/Left",
+        "12-1/Right"
+      ],
+      "num_train_users": 12,
+      "num_val_users": 3,
+      "no_overlap_verified": true
+    },
+    {
+      "fold": 3,
+      "train_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27
+      ],
+      "val_indices": [
+        20,
+        21,
+        22,
+        23,
+        28,
+        29
+      ],
+      "train_user_ids": [
+        "1-3",
+        "10-1",
+        "11-1",
+        "12-1",
+        "13-1",
+        "2-1",
+        "2-2",
+        "3-1",
+        "4-1",
+        "5-1",
+        "7-1",
+        "8-1"
+      ],
+      "val_user_ids": [
+        "6-1",
+        "6-2",
+        "9-1"
+      ],
+      "train_sessions": [
+        "1-3/Left",
+        "1-3/Right",
+        "10-1/Left",
+        "10-1/Right",
+        "11-1/Left",
+        "11-1/Right",
+        "12-1/Left",
+        "12-1/Right",
+        "13-1/Left",
+        "13-1/Right",
+        "2-1/Left",
+        "2-1/Right",
+        "2-2/Left",
+        "2-2/Right",
+        "3-1/Left",
+        "3-1/Right",
+        "4-1/Left",
+        "4-1/Right",
+        "5-1/Left",
+        "5-1/Right",
+        "7-1/Left",
+        "7-1/Right",
+        "8-1/Left",
+        "8-1/Right"
+      ],
+      "val_sessions": [
+        "6-1/Left",
+        "6-1/Right",
+        "6-2/Left",
+        "6-2/Right",
+        "9-1/Left",
+        "9-1/Right"
+      ],
+      "num_train_users": 12,
+      "num_val_users": 3,
+      "no_overlap_verified": true
+    },
+    {
+      "fold": 4,
+      "train_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29
+      ],
+      "val_indices": [
+        8,
+        9,
+        18,
+        19,
+        26,
+        27
+      ],
+      "train_user_ids": [
+        "1-3",
+        "10-1",
+        "11-1",
+        "12-1",
+        "2-1",
+        "2-2",
+        "3-1",
+        "4-1",
+        "6-1",
+        "6-2",
+        "7-1",
+        "9-1"
+      ],
+      "val_user_ids": [
+        "13-1",
+        "5-1",
+        "8-1"
+      ],
+      "train_sessions": [
+        "1-3/Left",
+        "1-3/Right",
+        "10-1/Left",
+        "10-1/Right",
+        "11-1/Left",
+        "11-1/Right",
+        "12-1/Left",
+        "12-1/Right",
+        "2-1/Left",
+        "2-1/Right",
+        "2-2/Left",
+        "2-2/Right",
+        "3-1/Left",
+        "3-1/Right",
+        "4-1/Left",
+        "4-1/Right",
+        "6-1/Left",
+        "6-1/Right",
+        "6-2/Left",
+        "6-2/Right",
+        "7-1/Left",
+        "7-1/Right",
+        "9-1/Left",
+        "9-1/Right"
+      ],
+      "val_sessions": [
+        "13-1/Left",
+        "13-1/Right",
+        "5-1/Left",
+        "5-1/Right",
+        "8-1/Left",
+        "8-1/Right"
+      ],
+      "num_train_users": 12,
+      "num_val_users": 3,
+      "no_overlap_verified": true
+    },
+    {
+      "fold": 5,
+      "train_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26,
+        27,
+        28,
+        29
+      ],
+      "val_indices": [
+        2,
+        3,
+        16,
+        17,
+        24,
+        25
+      ],
+      "train_user_ids": [
+        "1-3",
+        "11-1",
+        "12-1",
+        "13-1",
+        "2-1",
+        "2-2",
+        "3-1",
+        "5-1",
+        "6-1",
+        "6-2",
+        "8-1",
+        "9-1"
+      ],
+      "val_user_ids": [
+        "10-1",
+        "4-1",
+        "7-1"
+      ],
+      "train_sessions": [
+        "1-3/Left",
+        "1-3/Right",
+        "11-1/Left",
+        "11-1/Right",
+        "12-1/Left",
+        "12-1/Right",
+        "13-1/Left",
+        "13-1/Right",
+        "2-1/Left",
+        "2-1/Right",
+        "2-2/Left",
+        "2-2/Right",
+        "3-1/Left",
+        "3-1/Right",
+        "5-1/Left",
+        "5-1/Right",
+        "6-1/Left",
+        "6-1/Right",
+        "6-2/Left",
+        "6-2/Right",
+        "8-1/Left",
+        "8-1/Right",
+        "9-1/Left",
+        "9-1/Right"
+      ],
+      "val_sessions": [
+        "10-1/Left",
+        "10-1/Right",
+        "4-1/Left",
+        "4-1/Right",
+        "7-1/Left",
+        "7-1/Right"
+      ],
+      "num_train_users": 12,
+      "num_val_users": 3,
+      "no_overlap_verified": true
+    }
+  ],
+  "frame_wise": {
+    "accuracy_mean": 0.9837389923544586,
+    "accuracy_std": 0.009558321631612169,
+    "class_1_precision_mean": 0.8328361624561194,
+    "class_1_precision_std": 0.05883071838365215,
+    "class_1_recall_mean": 0.8451367400089991,
+    "class_1_recall_std": 0.0664057388806774,
+    "class_1_f1_mean": 0.8369364804412818,
+    "class_1_f1_std": 0.04776899024665814
+  },
+  "segment_wise": {
+    "k=0.1": {
+      "precision_mean": 0.7794184460173896,
+      "precision_std": 0.13131568368806787,
+      "recall_mean": 0.9165753200895009,
+      "recall_std": 0.04118435987805047,
+      "segmental_f1_mean": 0.8336103225093423,
+      "segmental_f1_std": 0.08068033775271542
+    },
+    "k=0.25": {
+      "precision_mean": 0.7501873717921191,
+      "precision_std": 0.12438696081041586,
+      "recall_mean": 0.9148315954981794,
+      "recall_std": 0.05391436349357481,
+      "segmental_f1_mean": 0.8166237713354194,
+      "segmental_f1_std": 0.0834198643943901
+    },
+    "k=0.5": {
+      "precision_mean": 0.6456157809659544,
+      "precision_std": 0.1085901954047099,
+      "recall_mean": 0.8924763593550196,
+      "recall_std": 0.08033675975646393,
+      "segmental_f1_mean": 0.7450329140504659,
+      "segmental_f1_std": 0.09461529030994886
+    }
+  },
+  "per_fold_results": [
+    {
+      "frame_wise": {
+        "frame_accuracy": 0.9973277809623361,
+        "class_0_precision": 0.9987709587801766,
+        "class_0_recall": 0.9985238089143169,
+        "class_0_f1": 0.9986473685557993,
+        "class_1_precision": 0.8817902289033139,
+        "class_1_recall": 0.899616591146741,
+        "class_1_f1": 0.8906142167011732,
+        "confusion_matrix": [
+          [
+            234041,
+            346
+          ],
+          [
+            288,
+            2581
+          ]
+        ],
+        "support": [
+          234387,
+          2869
+        ]
+      },
+      "segment_wise": {
+        "k=0.1": {
+          "TP": 29,
+          "FP": 4,
+          "FN": 4,
+          "precision": 0.8787878787878788,
+          "recall": 0.8787878787878788,
+          "segmental_f1": 0.8787878787878788
+        },
+        "k=0.25": {
+          "TP": 29,
+          "FP": 5,
+          "FN": 3,
+          "precision": 0.8529411764705882,
+          "recall": 0.90625,
+          "segmental_f1": 0.8787878787878788
+        },
+        "k=0.5": {
+          "TP": 27,
+          "FP": 11,
+          "FN": 1,
+          "precision": 0.7105263157894737,
+          "recall": 0.9642857142857143,
+          "segmental_f1": 0.8181818181818182
+        }
+      },
+      "num_sessions": 6,
+      "total_frames": 237256,
+      "fold": 1,
+      "best_val_f1": 0.8522525431939286,
+      "best_val_acc": 0.9961386539727554
+    },
+    {
+      "frame_wise": {
+        "frame_accuracy": 0.9882430296096202,
+        "class_0_precision": 0.9944316810093065,
+        "class_0_recall": 0.9935201192395319,
+        "class_0_f1": 0.993975691129196,
+        "class_1_precision": 0.7434045830926247,
+        "class_1_recall": 0.7714057348386453,
+        "class_1_f1": 0.7571463594018142,
+        "confusion_matrix": [
+          [
+            408608,
+            2665
+          ],
+          [
+            2288,
+            7721
+          ]
+        ],
+        "support": [
+          411273,
+          10009
+        ]
+      },
+      "segment_wise": {
+        "k=0.1": {
+          "TP": 108,
+          "FP": 99,
+          "FN": 6,
+          "precision": 0.5217391304347826,
+          "recall": 0.9473684210526315,
+          "segmental_f1": 0.6728971962616822
+        },
+        "k=0.25": {
+          "TP": 105,
+          "FP": 102,
+          "FN": 9,
+          "precision": 0.5072463768115942,
+          "recall": 0.9210526315789473,
+          "segmental_f1": 0.6542056074766355
+        },
+        "k=0.5": {
+          "TP": 91,
+          "FP": 116,
+          "FN": 23,
+          "precision": 0.4396135265700483,
+          "recall": 0.7982456140350878,
+          "segmental_f1": 0.5669781931464174
+        }
+      },
+      "num_sessions": 6,
+      "total_frames": 421282,
+      "fold": 2,
+      "best_val_f1": 0.759522220432211,
+      "best_val_acc": 0.9875905265683157
+    },
+    {
+      "frame_wise": {
+        "frame_accuracy": 0.9850587334864065,
+        "class_0_precision": 0.9919134123982534,
+        "class_0_recall": 0.9921770485412809,
+        "class_0_f1": 0.9920452129544327,
+        "class_1_precision": 0.8790576633337899,
+        "class_1_recall": 0.8754603737552857,
+        "class_1_f1": 0.877255330781848,
+        "confusion_matrix": [
+          [
+            111990,
+            883
+          ],
+          [
+            913,
+            6418
+          ]
+        ],
+        "support": [
+          112873,
+          7331
+        ]
+      },
+      "segment_wise": {
+        "k=0.1": {
+          "TP": 90,
+          "FP": 18,
+          "FN": 7,
+          "precision": 0.8333333333333334,
+          "recall": 0.9278350515463918,
+          "segmental_f1": 0.8780487804878049
+        },
+        "k=0.25": {
+          "TP": 88,
+          "FP": 21,
+          "FN": 8,
+          "precision": 0.8073394495412844,
+          "recall": 0.9166666666666666,
+          "segmental_f1": 0.8585365853658536
+        },
+        "k=0.5": {
+          "TP": 77,
+          "FP": 45,
+          "FN": 6,
+          "precision": 0.6311475409836066,
+          "recall": 0.927710843373494,
+          "segmental_f1": 0.751219512195122
+        }
+      },
+      "num_sessions": 6,
+      "total_frames": 120204,
+      "fold": 3,
+      "best_val_f1": 0.8851904651394092,
+      "best_val_acc": 0.9855600033358352
+    },
+    {
+      "frame_wise": {
+        "frame_accuracy": 0.9795870062616105,
+        "class_0_precision": 0.994749926653387,
+        "class_0_recall": 0.9834666585246703,
+        "class_0_f1": 0.9890761140751545,
+        "class_1_precision": 0.781190019193858,
+        "class_1_recall": 0.9191727089028884,
+        "class_1_f1": 0.8445827872433377,
+        "confusion_matrix": [
+          [
+            128842,
+            2166
+          ],
+          [
+            680,
+            7733
+          ]
+        ],
+        "support": [
+          131008,
+          8413
+        ]
+      },
+      "segment_wise": {
+        "k=0.1": {
+          "TP": 94,
+          "FP": 23,
+          "FN": 3,
+          "precision": 0.8034188034188035,
+          "recall": 0.9690721649484536,
+          "segmental_f1": 0.8785046728971962
+        },
+        "k=0.25": {
+          "TP": 93,
+          "FP": 28,
+          "FN": 0,
+          "precision": 0.768595041322314,
+          "recall": 1.0,
+          "segmental_f1": 0.8691588785046729
+        },
+        "k=0.5": {
+          "TP": 89,
+          "FP": 34,
+          "FN": 2,
+          "precision": 0.7235772357723578,
+          "recall": 0.978021978021978,
+          "segmental_f1": 0.8317757009345794
+        }
+      },
+      "num_sessions": 6,
+      "total_frames": 139421,
+      "fold": 4,
+      "best_val_f1": 0.8168927408395087,
+      "best_val_acc": 0.9743407317975861
+    },
+    {
+      "frame_wise": {
+        "frame_accuracy": 0.9684784114523205,
+        "class_0_precision": 0.9761821190392619,
+        "class_0_recall": 0.9894488605175954,
+        "class_0_f1": 0.9827707188037942,
+        "class_1_precision": 0.8787383177570094,
+        "class_1_recall": 0.7600282914014348,
+        "class_1_f1": 0.8150837080782359,
+        "confusion_matrix": [
+          [
+            97340,
+            1038
+          ],
+          [
+            2375,
+            7522
+          ]
+        ],
+        "support": [
+          98378,
+          9897
+        ]
+      },
+      "segment_wise": {
+        "k=0.1": {
+          "TP": 92,
+          "FP": 15,
+          "FN": 15,
+          "precision": 0.8598130841121495,
+          "recall": 0.8598130841121495,
+          "segmental_f1": 0.8598130841121495
+        },
+        "k=0.25": {
+          "TP": 88,
+          "FP": 20,
+          "FN": 18,
+          "precision": 0.8148148148148148,
+          "recall": 0.8301886792452831,
+          "segmental_f1": 0.822429906542056
+        },
+        "k=0.5": {
+          "TP": 81,
+          "FP": 31,
+          "FN": 21,
+          "precision": 0.7232142857142857,
+          "recall": 0.7941176470588235,
+          "segmental_f1": 0.7570093457943925
+        }
+      },
+      "num_sessions": 6,
+      "total_frames": 108275,
+      "fold": 5,
+      "best_val_f1": 0.8213029989658739,
+      "best_val_acc": 0.968017027971219
+    }
+  ]
+}

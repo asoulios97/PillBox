@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Raw dataset & archives (several GB; download from Dataverse, see dataverse_files/00_ReadMe.txt)
+*.zip
+dataverse_files/*
+!dataverse_files/00_ReadMe.txt
+!dataverse_files/MANIFEST.TXT
+
+# Generated data (regenerate with: cd code && .venv/Scripts/python.exe prepromax.py)
+*.pkl
+*.npz
+code/DX_I_catalog.csv
+
+# Model checkpoints and bulky prediction dumps (keep metrics/summary JSON + plots)
+*.pth
+*.pt
+code/results/*/models/
+code/results/*/predictions/
+code/legacy/results/*/models/
+code/legacy/results/*/predictions/

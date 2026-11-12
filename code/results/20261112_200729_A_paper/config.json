@@ -1,0 +1,95 @@
+{
+  "config": {
+    "data_dir": "C:\\Users\\Apost\\Desktop\\\u0394\u03b9\u03c0\u03bb\u03c9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae\\others\\open datasets\\drinking gesture identifications.open\\code",
+    "data_prefix": "DX_I",
+    "data_suffix": "16Hz_with_jerk",
+    "channels": 6,
+    "folds": "loso",
+    "max_folds": 0,
+    "select": "last",
+    "or_merge": true,
+    "seg_rule": "paper",
+    "iou_thresholds": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "arch": "mstcn",
+    "layer_type": "dilated",
+    "inception_stages": "all",
+    "inception_kernels": [
+      3,
+      5,
+      9
+    ],
+    "inception_bottleneck": 32,
+    "inception_maxpool": true,
+    "num_stages": 2,
+    "num_layers": 9,
+    "num_features": 128,
+    "kernel_size": 3,
+    "dropout": 0.3,
+    "legacy_kernels": [
+      1,
+      3,
+      5
+    ],
+    "use_decoder": true,
+    "use_bottleneck": true,
+    "bottleneck_interval": 3,
+    "refine_input": "pred_only",
+    "smooth_weight": 0.15,
+    "tau": 4.0,
+    "class_weight": "none",
+    "stage_reduce": "sum",
+    "train_mode": "full",
+    "infer_mode": "auto",
+    "window": 128,
+    "stride": 64,
+    "crop_len": 4096,
+    "batch_size": 1,
+    "epochs": 50,
+    "lr": 0.0005,
+    "weight_decay": 0.0,
+    "scheduler": "none",
+    "grad_clip": 0.0,
+    "eval_every": 5,
+    "monitor_every": 1,
+    "plots": true,
+    "vote_weight": "uniform",
+    "allow_large_span": false,
+    "preset": "paper",
+    "seed": 42,
+    "deterministic": true,
+    "device": "auto",
+    "save_models": true,
+    "results_dir": "C:\\Users\\Apost\\Desktop\\\u0394\u03b9\u03c0\u03bb\u03c9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae\\others\\open datasets\\drinking gesture identifications.open\\code\\results",
+    "tag": "A_paper",
+    "verbose": 1
+  },
+  "derived": {
+    "receptive_field": {
+      "per_stage": [
+        1023,
+        1023
+      ],
+      "total": 2045,
+      "max_layer_half_span": 256
+    },
+    "n_parameters": 1186052,
+    "infer_mode": "full",
+    "span_warning": null,
+    "n_sessions": 30,
+    "n_subjects": 13,
+    "n_folds_run": 13
+  },
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.5.1+cu121",
+    "numpy": "2.3.5",
+    "device": "cuda",
+    "command": "mstcn_pipeline.py --preset paper --tag A_paper",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti"
+  }
+}
